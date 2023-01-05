@@ -39,7 +39,7 @@ Add a screenshot of your solution. Crop/optimize/edit your image however you lik
 ### Links
 
 - Solution URL: https://github.com/Bryan04107/notifications-page-main
-- Live Site URL: 
+- Live Site URL: https://bryan04107.github.io/notifications-page-main
 
 ## My process
 
