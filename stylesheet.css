@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+:root {
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+  --White: hsl(0, 0%, 100%);
+  --Very-light-grayish-blue: hsl(210, 60%, 98%);
+  --Light-grayish-blue-1: hsl(211, 68%, 94%);
+  --Light-grayish-blue-2: hsl(205, 33%, 90%);
+  --Grayish-blue: hsl(219, 14%, 63%);
+  --Dark-grayish-blue: hsl(219, 12%, 42%);
+  --Very-dark-blue: hsl(224, 21%, 14%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:var(--Very-light-grayish-blue);
+  color: var(--Dark-grayish-blue);
+  font-size: 16px; 
+  max-width: 1440px;
+  min-height: 1000px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.titlenotif{
+  font-size: 25px;
+  color: var(--Very-dark-blue);
+}
+
+.container {
+  background-color: var(--White);
+  align-self: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 700px;
+  padding: 25px 20px;
+  border-radius: 10px;
+}
+
+.unread {
+  background-color: var(--Light-grayish-blue-1)
+}
+
+.notif_box {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.notif {
+  padding-left: 20px;
+}
+
+.name {
+  color: var(--Very-dark-blue);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.desc {
+  font-weight: bold;
+}
+
+.reddot {
+  background-color: var(--Red);
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.time {
+  color: var(--Dark-grayish-blue);
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.message {
+  padding: 10px;
+  border: 1px solid var(--Light-grayish-blue-2);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: -30px;
+  margin-left: 110px;
+}
+
+header {
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bluebox{
+  padding: 0 12px; color: var(--White);
+  background-color: var(--Blue);
+  border-radius: 5px;
+}
+
+
+
+@media screen and (max-width:400px) {
+  body{
+    max-width: auto;
+    min-width: 375px;
+  }
+}
